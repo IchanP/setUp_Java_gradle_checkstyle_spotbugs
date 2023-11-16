@@ -67,3 +67,6 @@ application {
     // Define the main class for the application.
     mainClass = 'test_java.App'
 }
+run {
+  standardInput = System.in
+}
